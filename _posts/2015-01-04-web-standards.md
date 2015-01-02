@@ -5,6 +5,7 @@ description: "Common web application web standards tips."
 tags: [standards, web, issues]
 image:
   background: small_steps.png
+  feature: ruler.jpg
 ---
 
 # Check that GET and POST Requests are Used Properly
