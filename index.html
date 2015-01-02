@@ -5,9 +5,9 @@ description: "Describe this nonsense."
 tags: [web, application, tips, issues, suggestions]
 comments: false
 image:
-  feature: abstract-1.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+  feature: startdust.jpg
+  credit: Atle Mo
+  creditlink: http://www.atlemo.com/
 ---
 
 {% for post in paginator.posts %}
@@ -34,9 +34,6 @@ image:
       <h1 class="entry-title"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}" itemprop="url">{{ post.title }}</a></h1>
     {% endif %}
   </header>
-  <div class="entry-content">
-    {{ post.content }}
-  </div><!-- /.entry-content -->
 </article><!-- /.hentry -->
 {% endfor %}
 
