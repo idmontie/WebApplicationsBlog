@@ -32,3 +32,7 @@ According to [Bigoak Inc](http://www.bigoakinc.com/blog/when-to-use-a-301-vs-302
 > The three major engines handle 302 redirects very differently, and because of this 302s are typically not recommended.
 
 Best practice is to use 301 redirects (which are permanent and are usually cached by the browser).  For temporary moves, use 302 redirects.
+
+# Force IE to Use Unicode for Parameters
+
+If you have ever seen `utf8=✓` in the parameter listing of a url, it's in order to [force Internet Explorer (5, 6, 7 and 8) to encode its parameters as unicode](http://stackoverflow.com/questions/3222013/what-is-the-snowman-param-in-ruby-on-rails-3-forms-for/3348524#3348524).  

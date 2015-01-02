@@ -9,6 +9,8 @@ image:
   feature: shirts.jpg
 ---
 
+User Experience is one of the most important parts of web applications.
+
 # Test for Consistency Between Browsers
 
 Are there tests for consistency with:
@@ -148,3 +150,8 @@ input:required:invalid {
 ```
 
 Checkout [Form Validation in HTML 5](http://basicuse.net/articles/pl/textile/html_css/form_validation_in_html5) for more information.
+
+# Use CSS Animations over JavaScript Animations
+
+You can now use CSS animations instead of relying on JavaScript.  You can read more about CSS animations on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Using_CSS_animations).
+
