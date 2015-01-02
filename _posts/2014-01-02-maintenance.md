@@ -7,8 +7,6 @@ image:
   background: small_steps.png
 ---
 
-Maintenance
-===========
 
 # Setup an Error/Bug Reporting Solution
 
