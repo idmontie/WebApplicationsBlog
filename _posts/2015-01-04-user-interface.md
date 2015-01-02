@@ -26,11 +26,13 @@ Also consider how the same browser will render your site on differnet operating 
 # Test for Mobile Consistency
 
 Are there tests for consistency with:
-n
+
 - [ ] Android phones and tablets
 - [ ] iOS phones and tablets
 - [ ] Screen readers
 - [ ] Search engines
+
+For more information, check out [Mobile]({{ site.url }}/mobile/) and [Developer Tools]({{ site.url }}/developer-tools/).
 
 # Do you have a staging environment?
 
@@ -123,7 +125,7 @@ See [Progressive Enhancement](http://en.wikipedia.org/wiki/Progressive_enhanceme
 
 # Validate Forms
 
-Going along with [Security](#file-security-md), make sure to validate all form input on the server side and give useful errors back to the user.  Once proper form security handling has been implemented, add in client side validation.  You can use HTML5's simple validation to add a small layer of responsive validation:
+Going along with [Security]({{ site.url }}/security/), make sure to validate all form input on the server side and give useful errors back to the user.  Once proper form security handling has been implemented, add in client side validation.  You can use HTML5's simple validation to add a small layer of responsive validation:
 
 ```html
 <input id="username" placeholder="John Jones" required>
