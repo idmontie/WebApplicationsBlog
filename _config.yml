@@ -1,36 +1,34 @@
-title:            "Web Applications: Common Issues and Tips"
-description:      A blog for commons issues and tips for web applications.
+title:            HPSTR Theme
+description:      A responsive Jekyll theme with modern tendencies from designer Michael Rose.
 disqus_shortname: hpstrtheme
 reading_time:     true
 words_per_minute: 200
-# Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
-# When testing locally leave blank or use http://localhost:4000
-url:
+url:              //mmistakes.github.io/hpstr-jekyll-theme
 
 # Owner/author information
 owner:
-  name:           Ivan Montiel
+  name:           Michael Rose
   avatar:         avatar.jpg
-  bio:            ""
-  email:          idmontie@asu.edu
+  bio:            "Just another boring, tattooed, time traveling designer hailing from Buffalo New York."
+  email:          
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        
+  twitter:        mmistakes
   facebook:       
-  github:         
+  github:         mmistakes
   stackexchange:  
   linkedin:       
-  instagram:      
+  instagram:        
   flickr:         
   tumblr:         
   # For Google Authorship https://plus.google.com/authorship
   # google plus id, include the '+', eg +mmistakes
-  google_plus:    +yourid
+  google_plus:    +MichaelRoseDesign
 
 # Background image to be tiled on all pages
-background: 
+background:
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   
+google_analytics:   UA-2011187-5
 google_verify:      
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:         

@@ -1,13 +1,13 @@
 {
-  "name": "web-applications",
-  "author": "Ivan Montiel <idmontie@asu.edu>",
-  "homepage": "http://idmontie.github.io/web-applications",
+  "name": "hpstr-theme",
+  "author": "Michael Rose <michael@mademistakes.com>",
+  "homepage": "http://mmistakes.github.io/hpstr-jekyll-theme/",
   "repository": {
     "type": "git",
-    "url": "git://github.com/idmontie/web-applications.git"
+    "url": "git://github.com/mmistakes/hpstr-jekyll-theme.git"
   },
   "bugs": {
-    "url": "https://github.com/idmontie/web-applications/issues"
+    "url": "https://github.com/mmistakes/hpstr-jekyll-theme/issues"
   },
   "engines": {
     "node": ">= 0.10.0"
