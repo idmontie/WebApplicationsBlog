@@ -3,8 +3,10 @@ layout: post
 title: Maintenance
 description: "Common web application maintenance tips."
 tags: [maintenance, web, issues]
+comments: false
 image:
   background: small_steps.png
+  feature: desktop.jpg
 ---
 
 

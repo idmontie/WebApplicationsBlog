@@ -3,8 +3,10 @@ layout: post
 title: RESTful Interfaces
 description: "restful interface tips."
 tags: [rest, web, issues]
+comments: false
 image:
   background: small_steps.png
+  feature: mac.jpg
 ---
 
 # Are you using PUT and POST correctly?

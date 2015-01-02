@@ -3,6 +3,7 @@ layout: post
 title: Performance
 description: "Common web application performance tips."
 tags: [performance, web, issues]
+comments: false
 image:
   background: small_steps.png
 ---

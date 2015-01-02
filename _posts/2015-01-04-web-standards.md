@@ -3,6 +3,7 @@ layout: post
 title: Web Standards
 description: "Common web application web standards tips."
 tags: [standards, web, issues]
+comments: false
 image:
   background: small_steps.png
   feature: ruler.jpg

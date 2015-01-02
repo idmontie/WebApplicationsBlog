@@ -3,6 +3,7 @@ layout: post
 title: User Interface
 description: "Common web application user interface tips."
 tags: [user interface, ui, web, issues]
+comments: false
 image:
   background: small_steps.png
   feature: shirts.jpg
