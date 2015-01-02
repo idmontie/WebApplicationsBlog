@@ -5,19 +5,14 @@ description: "Describe this nonsense."
 tags: [web, application, tips, issues, suggestions]
 comments: false
 image:
-  feature: startdust.jpg
+  feature: stardust.jpg
   credit: Atle Mo
   creditlink: http://www.atlemo.com/
 ---
 
 {% for post in paginator.posts %}
 <article class="hentry">
-  <header>
-    {% if post.image.feature %}
-      <div class="entry-image-index">
-        <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.image.feature }}" alt="{{ post.title }}"></a>
-      </div><!-- /.entry-image -->
-    {% endif %}
+  <header {% if post.image.feature %}style="background-image: url({{ site.url }}/images/{{ post.image.feature }})"{% endif %}>
     <div class="entry-meta">
       <span class="entry-date date published updated"><time datetime="{{ post.date | date_to_xmlschema }}"><a href="{{ site.url }}{{ post.url }}">{{ post.date | date: "%B %d, %Y" }}</a></time></span><span class="author vcard"><span class="fn"><a href="{{ site.url }}/about/" title="About {{ site.owner.name }}">{{ site.owner.name }}</a></span></span>
       {% if site.reading_time %}
