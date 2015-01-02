@@ -368,6 +368,8 @@ header .entry-meta {
 	}
 	article {
 		background-color: $white;
+		background-size: cover;
+		background-position: center center;
 		box-shadow: 0 0 0 0, 0 6px 12px rgba($base-color,0.1);
 		@include rounded(3px);
 		margin-bottom: 20px;
@@ -378,6 +380,15 @@ header .entry-meta {
 		@media #{$large} {
 			margin-bottom: 30px;
 			padding: 50px 80px;
+		}
+
+		h1 a {
+			color: #fff;
+			text-shadow: 1px 1px 4px rgba(34, 34, 34, 0.6);
+
+			&:hover {
+				text-shadow: 1px 1px 4px rgba(34, 34, 34, 0.9);
+			}
 		}
 	}
 }
