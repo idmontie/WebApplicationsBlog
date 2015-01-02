@@ -200,6 +200,15 @@ header .entry-meta {
 	@media #{$medium} {
 		display: block;
 	}
+	> span {
+		background-color: rgba(81, 81, 81, 0.3);
+		padding: 2px;
+		color: white;
+
+		time a {
+			color: white;
+		}
+	}
 }
 #post,
 #page {
