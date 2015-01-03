@@ -12,7 +12,7 @@ image:
 
 <div class="section group">
   {% for post in paginator.posts %}
-  <div class="span_1_of_2">
+  <div class="col span_1_of_2">
     <article class="hentry" {% if post.image.feature %}style="background-image: url({{ site.url }}/images/{{ post.image.feature }})"{% endif %}>
       <header>
         <div class="entry-meta">
