@@ -16,6 +16,10 @@ image:
 * [Live Reload](http://livereload.com/) - LiveReload monitors changes in the file system. As soon as you save a file, it is preprocessed as needed, and the browser is refreshed. $10 for Mac. Free for other platforms.
 * [Parallels](https://www.parallels.com/) - Run Windows on Your Mac.  Useful for testing Internet Explorer on OSX.
 
+# User Interface Tools
+
+* [UX Check](www.uxcheck.co) - UX Check is a Chrome Extension that helps you identify usability issues through a heuristic evaluation.  It gives you tools for making notes on websites.
+
 # Usage Trends
 
 [W3Techs](http://w3techs.com/) has a lot of technology surveys that can show you current technology trends.  It will show changes in market share, which CMS systems are popular, etc.

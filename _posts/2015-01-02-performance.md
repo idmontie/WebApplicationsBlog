@@ -6,6 +6,7 @@ tags: [performance, web, issues]
 comments: false
 image:
   background: small_steps.png
+  feature: airline.jpg
 ---
 
 # Cache Pages

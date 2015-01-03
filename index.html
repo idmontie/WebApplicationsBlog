@@ -11,7 +11,13 @@ image:
 ---
 
 <div class="section group">
-  {% for post in paginator.posts %}
+  {% capture posts %}
+    {% for post in site.posts %}
+      |{{ post.title }}#{{ post.url }}
+    {% endfor %}
+  {% endcapture %}
+  {% assign sortedposts = posts | split: '|' | sort %}
+  {% for post in sortedposts %}
   <div class="col span_1_of_2">
     <article class="hentry" {% if post.image.feature %}style="background-image: url({{ site.url }}/images/{{ post.image.feature }})"{% endif %}>
       <header>
