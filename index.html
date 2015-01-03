@@ -11,8 +11,8 @@ image:
 ---
 
 <div class="section group">
-  {% assign sorted_pages = site.pages | sort:"name" %}
-  {% for node in sorted_pages %}
+  {% assign sorted_posts = site.posts | sort:"name" %}
+  {% for post in sorted_posts %}
   <div class="col span_1_of_2">
     <article class="hentry" {% if post.image.feature %}style="background-image: url({{ site.url }}/images/{{ post.image.feature }})"{% endif %}>
       <header>
