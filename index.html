@@ -18,6 +18,7 @@ image:
         <div class="entry-meta">
           <span class="entry-date date published updated"><time datetime="{{ post.date | date_to_xmlschema }}"><a href="{{ site.url }}{{ post.url }}">{{ post.date | date: "%B %d, %Y" }}</a></time></span><span class="author vcard"><span class="fn"><a href="{{ site.url }}/about/" title="About {{ site.owner.name }}">{{ site.owner.name }}</a></span></span>
           {% if site.reading_time %}
+          <br/>
           <span class="entry-reading-time">
             <i class="fa fa-clock-o"></i>
             {% assign readtime = post.content | number_of_words | divided_by:site.words_per_minute %}
