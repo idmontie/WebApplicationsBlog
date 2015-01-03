@@ -20,7 +20,7 @@ If you are using [Foundation](http://foundation.zurb.com/), look into how [Found
 
 # Do your Positive, Negative, and Neutral Buttons look different?
 
-[![Buttons]({{ site.url }}/images/positive-actions-contract.png)](http://uxmovement.com/buttons/how-button-color-contrast-guides-users-to-action/)
+[![Buttons]({{ site.url }}/images/positive-actions-contrast.png)](http://uxmovement.com/buttons/how-button-color-contrast-guides-users-to-action/)
 Image from [UX Movement](http://uxmovement.com/buttons/how-button-color-contrast-guides-users-to-action/).
 
 Have your Positive Action buttons and your Neutral and Negative Action buttons look distinctly different.  Notice that in the above example, not only are the colors different, but one is bordered and ther other is filled in, making it [accessible]({{ site.url }}/accessibility) to those with color-blindness.

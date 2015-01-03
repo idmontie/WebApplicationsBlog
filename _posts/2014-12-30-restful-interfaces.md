@@ -78,3 +78,29 @@ There are different ways to version your API, but it's nice to plan ahead in ord
 
 Another less common method is to version the application in the URL: `/api/v1/...`.
 
+# Paging
+
+Large result sets should be paginated, you can use [the Github method](https://developer.github.com/guides/traversing-with-pagination/) for indicated next and previous pages of results using the `Link` HTTP header.
+
+# HTTP Status Codes
+
+[This list of HTTP Status codes](https://bourgeois.me/rest/) and their meaning is very helpful for knowing what HTTP Status your API should be returning.  It has been duplicated here as a backup:
+
+## Success codes
+
+* `201 Created` should be used when creating content (INSERT)
+* `202 Accepted` should be used when a request is queued for background processing (async tasks),
+* `204 No Content` should be used when the request was properly executed but no content was returned (a good example would be when you delete something).
+
+
+## Client error codes
+
+* `400 Bad Request` should be used when there was an error while processing the request payload (malformed JSON, for instance).
+* `401 Unauthorized` should be used when a request is not authenticiated (wrong access token, or username or password).
+* `403 Forbidden` should be used when the request is successfully authenticiated (see 401), but the action was forbidden.
+* `406 Not Acceptable` should be used when the requested format is not available (for instance, when requesting an XML resource from a JSON only server).
+* `410 Gone Should` be returned when the requested resource is permenantely deleted and will never be available again.
+* `422 Unprocesable entity` Could be used when there was a validation error while creating an object.
+A more complete list of status codes can be found in [RFC2616](http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html).
+
+
