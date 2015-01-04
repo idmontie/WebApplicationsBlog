@@ -168,3 +168,9 @@ Checkout [Form Validation in HTML 5](http://basicuse.net/articles/pl/textile/htm
 
 You can now use CSS animations instead of relying on JavaScript.  You can read more about CSS animations on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Using_CSS_animations).
 
+
+# Look at Little Big Details
+
+[Little Big Details](http://littlebigdetails.com/) contains design inspiration from the point of view of the users.
+
+For more websites about UI, look at our [developer tools list]({{ site.url }}/developer-tools).

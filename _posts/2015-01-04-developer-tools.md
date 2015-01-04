@@ -19,13 +19,32 @@ image:
 # User Interface Tools
 
 * [UX Check](www.uxcheck.co) - UX Check is a Chrome Extension that helps you identify usability issues through a heuristic evaluation.  It gives you tools for making notes on websites.
+* [Good UI](www.googleui.org) - Data stories concerning UI. Tips and hints for a better user experience.  They have a paid-for newsletter.
+* [Little Big Details](http://littlebigdetails.com/) contains design inspiration from the point of view of the users.
+* [Adobe Color CC](https://color.adobe.com/) - Formerly known as Kuler, this tools lets you pick color schemes.
+* [Material Palette](http://www.materialpalette.com/) - Preview simple color schemes.  Pick two colors and preview what they will look like on a simple site.
 
 # Usage Trends
 
-[W3Techs](http://w3techs.com/) has a lot of technology surveys that can show you current technology trends.  It will show changes in market share, which CMS systems are popular, etc.
+* [W3Techs](http://w3techs.com/) has a lot of technology surveys that can show you current technology trends.  It will show changes in market share, which CMS systems are popular, etc.
+* [Stack Share](http://stackshare.io/) - see what technology stacks other platforms are using.
 
 # Images and Stock Photos
 
 * [Subtle Patterns](http://subtlepatterns.com/) - Sublte pattern backgrounds for websites.
 * [Unsplash](https://unsplash.com/) - Large, high-resolution, splash photos for free.
+* [Resplashed](http://www.resplashed.com/) - HD images.
 * [Stock photos list ad Medium](https://medium.com/@dustin/stock-photos-that-dont-suck-62ae4bcbe01b) - List of great stock photo resources.
+
+# Templates
+
+## HTML5 Templates
+
+* [HTML5 Up](http://html5up.net/) - fully responsive, free, HTML5 templates.
+* [HTML5 Templates](http://themes.3rdwavemedia.com/) - UX centred HTML5 Bootstrap themes and templates.
+* [Templated](http://templated.co/) - A collection of free CSS and HTML5 site templates.
+
+# Emails
+
+* [Ink](http://zurb.com/ink/) - Tool for helping create emails.
+* [BeeFree](https://beefree.io/) - Tool for helping create emails.
