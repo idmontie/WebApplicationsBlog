@@ -11,6 +11,8 @@ image:
 
 User Experience is one of the most important parts of web applications.
 
+The following are tips and questions to consider when working on your web application user interface.
+
 # Test for Consistency Between Browsers
 
 Are there tests for consistency with:
@@ -24,6 +26,15 @@ Are there tests for consistency with:
 For IE Browsers, there is a Github project call [ievms](https://github.com/xdissent/ievms) which provides Virtual Machines with IE6, IE7, IE8, IE8, IE10, and IE11.
 
 Also consider how the same browser will render your site on differnet operating systems. Consider a service like [Browsershots](http://www.browsershots.org/) or [Litmus](https://litmus.com/).
+
+# Do your Positive, Negative, and Neutral Buttons look different?
+
+[![Buttons]({{ site.url }}/images/positive-actions-contrast.png)](http://uxmovement.com/buttons/how-button-color-contrast-guides-users-to-action/)
+
+Image from [UX Movement](http://uxmovement.com/buttons/how-button-color-contrast-guides-users-to-action/).
+
+Have your Positive Action buttons and your Neutral and Negative Action buttons look distinctly different.  Notice that in the above example, not only are the colors different, but one is bordered and ther other is filled in, making it [accessible]({{ site.url }}/accessibility) to those with color-blindness.
+
 
 # Test for Mobile Consistency
 
@@ -79,6 +90,8 @@ Check to make sure your website is navigable from screen readers.
 If you are using [Twitter Bootstrap](http://getbootstrap.com/), look into the [Bootstrap accessibility plugin](http://paypal.github.io/bootstrap-accessibility-plugin/).
 
 If you are using [Foundation](http://foundation.zurb.com/), look into how [Foundation is built around accessibility](http://zurb.com/article/1337/foundation-now-helps-you-build-accessible).
+
+For more on accessibility, see [the full page on Accessibility]({{ site.url }}/accessibility).
 
 # Are you using HTML5?
 
@@ -155,3 +168,9 @@ Checkout [Form Validation in HTML 5](http://basicuse.net/articles/pl/textile/htm
 
 You can now use CSS animations instead of relying on JavaScript.  You can read more about CSS animations on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Using_CSS_animations).
 
+
+# Look at Little Big Details
+
+[Little Big Details](http://littlebigdetails.com/) contains design inspiration from the point of view of the users.
+
+For more websites about UI, look at our [developer tools list]({{ site.url }}/developer-tools).

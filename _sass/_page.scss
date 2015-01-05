@@ -103,9 +103,8 @@ body {
 }
 .entry-image {
 	position: relative;
-	top: -50%; 
-	left: -50%; 
-	width: 200%; 
+	top: -50%;
+	width: 100%;
 	height: 200%;
 	min-height: 400px;
 	overflow: hidden;
@@ -125,7 +124,7 @@ body {
 		right: 0; 
 		bottom: 0; 
 		margin: auto; 
-		min-width: 50%;
+		min-width: 100%;
 		min-height: 400px; // match .entry-image min-height
 	}
 }
@@ -191,9 +190,9 @@ body {
 			background-color: lighten($base-color,50);
 		}
 	}
-	.entry-reading-time {
-		float: right;
-	}
+	// .entry-reading-time {
+	// 	float: right;
+	// }
 }
 header .entry-meta {
 	display: none; // hide header meta on small screens
