@@ -52,3 +52,11 @@ image:
 
 * [Ink](http://zurb.com/ink/) - Tool for helping create emails.
 * [BeeFree](https://beefree.io/) - Tool for helping create emails.
+
+# SEO
+
+* [Google Keyword Planner](https://adwords.google.com/KeywordPlanner)
+* [Google Analytics](http://www.google.com/analytics/)
+* [Website Optimizer](https://support.google.com/analytics/answer/1745147)
+
+Note: Checkout the [Google Trifecta Video](https://www.youtube.com/watch?v=9yKjrdcC8wA).
