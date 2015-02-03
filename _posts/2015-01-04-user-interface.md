@@ -174,3 +174,15 @@ You can now use CSS animations instead of relying on JavaScript.  You can read m
 [Little Big Details](http://littlebigdetails.com/) contains design inspiration from the point of view of the users.
 
 For more websites about UI, look at our [developer tools list]({{ site.url }}/developer-tools).
+
+# Responsive Grids
+
+Having a responsve layout is great for creating one application that looks good on mobile and desktop devices.  A Responsive Layout can be achieved by using popular frameworks like:
+
+* [Bootstrap](http://getbootstrap.com/)
+* [SemanticUI](http://semantic-ui.com/)
+* [Foundation](http://foundation.zurb.com/)
+
+and more.
+
+You can also create a custom grid if the above frameworks are too large for you to use.  Check out [this tutorial on Minimal Responsive Grids](http://jordanlev.github.io/grid/).
