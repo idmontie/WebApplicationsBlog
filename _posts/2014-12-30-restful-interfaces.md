@@ -104,3 +104,7 @@ Large result sets should be paginated, you can use [the Github method](https://d
 A more complete list of status codes can be found in [RFC2616](http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html).
 
 
+# Further Reading
+
+* [API Design Ebook](https://pages.apigee.com/rs/apigee/images/api-design-ebook-2012-03.pdf)
+* [Best Practices for a Pragmatic RESTful API](http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api)

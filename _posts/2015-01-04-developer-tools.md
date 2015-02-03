@@ -39,6 +39,10 @@ image:
 * [Unsplash](https://unsplash.com/) - Large, high-resolution, splash photos for free.
 * [Resplashed](http://www.resplashed.com/) - HD images.
 * [Stock photos list ad Medium](https://medium.com/@dustin/stock-photos-that-dont-suck-62ae4bcbe01b) - List of great stock photo resources.
+* [SuperFamous](http://superfamous.com/)
+* [IMCreator](http://www.imcreator.com/free)
+* [The Pattern Library](http://thepatternlibrary.com/)
+* [Pic Jumbo](http://picjumbo.com/)
 
 # Templates
 
