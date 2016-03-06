@@ -1,5 +1,4 @@
 Web Applications
 ================
 
-[View online](http://idmontie.github.io/WebApplicationsBlog)
-
+Blog discontinued, see [the Capsule Cat Blog](http://blog.capsulecat.com/) for more articles.
